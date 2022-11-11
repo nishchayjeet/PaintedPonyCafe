@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Its your Cafe</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<style>
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+
+
+/* Style the container/contact section */
+
+.container {
+  border-radius: 5px;
+
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#time{
+	padding-left: 80px;
+}
+h4{
+	 padding-left: 80px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+	</head>
+	<body>
+
+
+
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+						<h1  style="color:#562D0F" id="mainheading"></h1>
+
+
+
+						<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+
+
+									<li ><a href="gallery.html">Gallery</a></li>
+
+
+								<li><a href="menu.html">Menu </a></li>
+										<li class="current"><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+
+					</section>
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+
+						<!-- Content -->
+							<article class="box post">
+								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<header>
+									<h2 style="color:#562D0F" align="center">CONTACT US</h2>
+									  <p align="center">Swing by for a cup of coffee, or leave us a message</p>
+									<div class="container">
+											<br>	<br>
+
+  											<div class="row">
+    											<div class="column">
+    											<h4> OPEN DAILY </h4>
+
+
+    										<p id="time"> 9am—9pm (mon-sat)<br>
+															10am-2pm (sunday)</p>
+															<p id="demo"></p>
+
+
+
+    							</div>
+    						<div class="column">
+      				<form>
+
+        			<input type="text" id="fname" name="firstname" placeholder="NAME">
+
+        			<input type="text" id="email" name="lastname" placeholder="EMAIL">
+
+        			<textarea id="id1" name="subject" placeholder="HOW CAN WE HELP YOU?"				 style="height:170px"></textarea>
+
+        			<button onclick="validate()" >SEND MESSAGE </button>
+
+      			</form>
+    			</div>
+  				</div>
+					</div>
+								</section>
+							</article>
+
+					</div>
+				</section>
+
+				<!-- Footer -->
+					<section id="footer">
+
+						<div class="container">
+							<div class="row">
+
+
+
+								<div class="col-4 col-6-medium col-12-small">
+									<section>
+										<header>
+											<h2>HOURS</h2>
+										</header>
+										<ul class="divided">
+											<li>OPEN DAILY</li>
+											<li>9am—9pm (mon-sat)</li>
+											<li>10am-2pm (sunday)</li>
+
+										</ul>
+									</section>
+								</div>
+								<div class="col-4 col-12-medium">
+									<section>
+										<header>
+											<h2>Our Social</h2>
+										</header>
+										<ul class="social">
+											<li><a class="icon brands fa-facebook" href="https://www.facebook.com/paintedponycafe/?utm_source=tripadvisor&utm_medium=referral"><span class="label">Facebook</span></a></li>
+											<li><a class="icon brands fa-tripadvisor" href="https://www.tripadvisor.ca/Restaurant_Review-g154932-d7350726-Reviews-Painted_pony_cafe-Kamloops_British_Columbia.html"><span class="label">Twitter</span></a></li>
+
+										</ul>
+										<ul class="contact">
+											<li>
+												<h3>Address</h3>
+												<p><a href="https://maps.google.com/maps?saddr=&amp;daddr=705+Victoria+St%2C+Kamloops%2C+British+Columbia+V2C+2B5+Canada@50.67561,-120.32403">
+													705 Victoria St, Kamloops, British Columbia V2C 2B5 Canada
+												</a></p>
+											</li>
+											<li>
+												<h3>Mail</h3>
+												<a href="mailto:catering@ponycafe.ca">contact@ponycafe.ca</a>
+											</li>
+											<li>
+												<h3>Phone</h3>
+												<p>(250)-851-1311</p>
+											</li>
+										</ul>
+									</section>
+								</div>
+
+								<div class="col-4 col-6-medium col-12-small">
+									<section>
+										<header>
+											<h2>CATERING</h2>
+										</header>
+										<ul class="divided">
+											<li>We cater! For catering requests please</li>
+											<li>contact
+												<a href="mailto:catering@ponycafe.ca">contact@ponycafe.ca</a></li>
+
+										</ul>
+									</section>
+								</div>
+
+								<div class="col-12">
+
+									<!-- Copyright -->
+										<div id="copyright">
+											<ul class="links">
+												<li> COMP 2680 Web Project  </li><li>Project By: Nishchayjeet Singh</li>
+											</ul>
+										</div>
+
+								</div>
+							</div>
+						</div>
+					</section>
+
+			</div>
+<script src="assets/js/headings.js"></script>
+			<script src="assets/js/button.js"></script>
+
+			</script>
+
+		</body>
+	</html>
